@@ -1,11 +1,10 @@
 <script>
 	import { onMount } from 'svelte';
-	var redirect_uri = 'http://127.0.0.1:3000/';
 
-	//var server_url = "http://badonk.myddns.me:32800/" // use this for deployed server
-	var server_url = 'http://127.0.0.1:5000/'; // use this for local server
+	var server_url = "http://badonk.myddns.me:32800/" // use this for deployed server
+	//var server_url = 'http://127.0.0.1:5000/'; // use this for local server
 	//var svelte_url = "http://badonk.myddns.me:32700/" // use this for deployed server
-	var svelte_url = 'http://127.0.0.1:3000/'
+	var svelte_url = 'https://yeboi.vercel.app/'
 
 	var items = [];
 	var currentTime = Math.floor(new Date().getTime()/1000.0)

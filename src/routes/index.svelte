@@ -14,13 +14,13 @@
 	import { writable } from 'svelte/store';
 
 	export const track = writable([]);
-	//var server_url = "http://badonk.myddns.me:32800/" // use this for deployed server
-	var server_url = 'http://127.0.0.1:5000/'; // use this for local server
+	var server_url = "http://badonk.myddns.me:32800/" // use this for deployed server
+	//var server_url = 'http://127.0.0.1:5000/'; // use this for local server
 	//var svelte_url = "http://badonk.myddns.me:32700/" // use this for deployed server
-	var svelte_url = 'http://127.0.0.1:3000/'
+	var svelte_url = 'https://yeboi.vercel.app/'
 
     
-	var redirect_uri = 'http://127.0.0.1:3000/';
+	var redirect_uri = svelte_url;
 	var client_id = 'da26fd2687ef488e927623251a3fcffc';
 	var client_secret = 'bd04cf03a60e4d0eb30131e095894a3b';
 	var access_token = null;
